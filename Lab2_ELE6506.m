@@ -1,5 +1,13 @@
+% A =[3+4*j 0; 40*exp(j*deg2rad(50)) 6+5*j];
+% [angle_A, rho_A] = cart2pol(real(A^2), imag(A^2));
+% angle=rad2deg(angle_A)
+% rho_A
+% 
+
 clear all
 close all
+
+
 
 % Choix du systeme d'exploitation
 is_unix = 0; % 0 si votre systeme est windows; 1 sinon (Mac,Ubuntu)
